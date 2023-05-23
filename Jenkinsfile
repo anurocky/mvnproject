@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage("Stage1 : checkout stage "){
+        stage(" Stage1 : checkout stage "){
             steps{
                 git branch: 'main', url: 'https://github.com/anurocky/mvnproject.git'
                
